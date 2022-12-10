@@ -51,7 +51,7 @@ svg.icon { width: 14px; height: 14px; margin: 0 5px 0 8px; vertical-align: -0.15
 .mylist li.col-3{ width: 100px; transition: 0.3s all linear; font-size: 14px; overflow: hidden; padding:10px 0; border-radius: 10px;}
 .mylist li.col-3 svg{ display: block; width: 45px; height: 45px; padding: 8px; background: #fff;border: 1px solid #eee;  border-radius:10px; margin: 0 auto; }
 .mylist li.col-3:hover{ background: #eee; }
-.mylist li.col-3 span{ width: 100%; display: block; height: 26px; line-height: 26px; text-align:center; font-size: 13px; }
+.mylist li.col-3 span{ width: 100%; display: block; height: 50px; line-height: 30px; text-align:center; font-size: 15px; }
 
 .mylist li a {  color: #555; display: block;}
 .mylist li.title{width: 100%; min-width: auto; margin: 0; height: 35px; font-size: 16px; line-height: 33px; padding: 0 20px 0 10px; border-bottom: 1px solid #eee; margin-bottom: 10px;}

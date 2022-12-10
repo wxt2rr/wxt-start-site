@@ -41,7 +41,9 @@ $(function() {
 
                 var items = rows.item;
                 for(var x in items){
-                    var item = items[i];
+                
+                    var item = items[x];
+                    console.log(item);
                     var ihref = item.href;
                     var iIcon = item.icon;
                     var iName = item.name;

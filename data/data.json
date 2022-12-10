@@ -18,8 +18,8 @@
                 },
                 {
                     "href":"https://quickref.me/",
-                    "icon":"icon-miji",
-                    "name":"查命令"
+                    "icon":"icon-config-command",
+                    "name":"quickref"
                 }
             ]
         },
@@ -56,6 +56,16 @@
                     "href":"https://ip233.cn/",
                     "icon":"icon-wangluo",
                     "name":"IP查询"
+                },
+				{
+                    "href":"https://www.jsdelivr.com/github",
+                    "icon":"icon-jsdelivr",
+                    "name":"JsDelivr"
+                },
+				{
+                    "href":"https://www.json.cn",
+                    "icon":"icon-json",
+                    "name":"Json格式化"
                 }
             ]
         },
