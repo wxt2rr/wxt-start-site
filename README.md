@@ -5,6 +5,7 @@
 
 * 文件分层
 * 增加 /data/data.json配置文件，对搜索、网站进行动态配置
+* 增加dockerfile，可直接启动nginx服务器
 
 #### json示例：
 
