@@ -1,6 +1,6 @@
 $(function() {
     $.ajax({
-        url: "https://eyunaku-chuangkitapi-group-pub-sandboxlocal.oss-cn-beijing.aliyuncs.com/data.json",
+        url: "data/data.json",
         type: "GET",
         dataType: "json", 
         success: function(data) { 
