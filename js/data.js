@@ -1,6 +1,6 @@
 $(function() {
     $.ajax({
-        url: "data/data.json",
+        url: "https://eyunaku-chuangkitapi-group-pub-sandboxlocal.oss-cn-beijing.aliyuncs.com/data.json",
         type: "GET",
         dataType: "json", 
         success: function(data) { 
@@ -15,7 +15,14 @@ $(function() {
                 var value = searchData.value;
                 var place = searchData.place;
                 var scan = searchData.scan;
-                sHtml += "<li><input checked='' hidden='' type='radio' name='type' id='"+id+"' value='"+value+"' data-placeholder='"+place+"'><label for='"+id+"'>"+scan+"</label></li>\n";
+                var name = searchData.name;
+                var df = searchData.default;
+                if("true" === df){
+                    sHtml += "<li><input checked='' hidden='' type='radio' name='type' id='"+id+"' value='"+value+"' data-placeholder='"+place+"' data-com.bitwarden.browser.user-edited='yes'><label for='"+id+"'>"+scan+"</label></li>\n";
+                }else{
+                    sHtml += "<li><input hidden='' type='radio' name='type' id='"+id+"' value='"+value+"' data-placeholder='"+place+"' data-com.bitwarden.browser.user-edited='yes'><label for='"+id+"'>"+scan+"</label></li>\n";
+                }
+                
             };
             $searchList.html(sHtml);
 
@@ -43,7 +50,10 @@ $(function() {
                 };
             };
             html += "</ul>";
-            $mylist.html(html);        
+            $mylist.html(html);  
+            
         }
+
     })
+    console.log("search and list load success");
 })
