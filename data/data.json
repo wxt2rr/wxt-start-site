@@ -119,6 +119,19 @@
                     "name":"QQ邮箱"
                 }
             ]
+        },
+        {
+            "title":{
+                "icon":"icon-yule",
+                "name":"娱乐"
+            },
+            "item":[
+                {
+                    "href":"https://wall.alphacoders.com/",
+                    "icon":"icon-Wallpaper",
+                    "name":"免费壁纸"
+                }
+            ]
         }
     ]
 }
