@@ -2,8 +2,8 @@
     "mylist":[
         {
             "title":{
-                "icon":"icon-remen",
-                "name":"热门常用"
+                "icon":"icon-fanyi1",
+                "name":"翻译系列"
             },
             "item":[
                 {
@@ -11,15 +11,38 @@
                     "icon":"icon-fanyi",
                     "name":"谷歌翻译"
                 },
+				{
+                    "href":"https://cn.bing.com/translator",
+                    "icon":"icon-fanyi",
+                    "name":"必应翻译"
+                },
                 {
+                    "href":"https://fanyi.baidu.com/",
+                    "icon":"icon-fanyi",
+                    "name":"百度翻译"
+                }
+            ]
+        },
+        {
+            "title":{
+                "icon":"icon-wangzhankaifa",
+                "name":"我的小站们"
+            },
+            "item":[
+				{
                     "href":"https://blog.wangxt.online",
                     "icon":"icon-blog",
                     "name":"博客"
                 },
                 {
-                    "href":"https://quickref.me/",
-                    "icon":"icon-config-command",
-                    "name":"quickref"
+                    "href":"https://bitwarden.wangxt.online",
+                    "icon":"icon-xiugaimima",
+                    "name":"Bitwarden"
+                },
+                {
+                    "href":"https://start.wangxt.online",
+                    "icon":"icon-yunhang",
+                    "name":"我的导航页"
                 }
             ]
         },
@@ -43,6 +66,11 @@
                     "href":"https://msdn.itellyou.cn/",
                     "icon":"icon-windows",
                     "name":"MSDN下载"
+                },
+                {
+                    "href":"https://quickref.me/",
+                    "icon":"icon-config-command",
+                    "name":"quickref"
                 }
             ]
         },
