@@ -26,7 +26,7 @@
         {
             "title":{
                 "icon":"icon-wangzhankaifa",
-                "name":"我的小站们"
+                "name":"我的小站"
             },
             "item":[
 				{
@@ -42,7 +42,7 @@
                 {
                     "href":"https://start.wangxt.online",
                     "icon":"icon-yunhang",
-                    "name":"我的导航页"
+                    "name":"导航页"
                 }
             ]
         },
