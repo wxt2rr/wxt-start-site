@@ -70,11 +70,37 @@
                 {
                     "href":"https://quickref.me/",
                     "icon":"icon-config-command",
-                    "name":"quickref"
+                    "name":"Quickref"
                 }
             ]
         },
         {
+            "title":{
+                "icon":"icon-yunanquan",
+                "name":"云厂商"
+            },
+            "item":[
+                {
+                    "href":"https://www.aliyun.com/",
+                    "icon":"icon-aliyun",
+                    "name":"阿里云"
+                },
+				{
+                    "href":"https://cloud.tencent.com/",
+                    "icon":"icon-tengxunyun",
+                    "name":"腾讯云"
+                },
+				{
+                    "href":"https://www.ksyun.com/",
+                    "icon":"icon-WPS-WORD1",
+                    "name":"金山云"
+                },{
+                    "href":"https://www.huaweicloud.com/",
+                    "icon":"icon-huawei",
+                    "name":"华为云"
+                }
+            ]
+        },{
             "title":{
                 "icon":"icon-ai-tool",
                 "name":"工具"
@@ -94,10 +120,13 @@
                     "href":"https://www.json.cn",
                     "icon":"icon-json",
                     "name":"Json格式化"
+                },{
+                    "href":"https://www.iconfont.cn/",
+                    "icon":"icon-Iconfont",
+                    "name":"Iconfont"
                 }
             ]
-        },
-        {
+        },{
             "title":{
                 "icon":"icon-youxiang",
                 "name":"邮箱"
